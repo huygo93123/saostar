@@ -1,4 +1,4 @@
-## SAOSTAR Project
+## SAOSTAR (v 1.0.0)
 ## Requirement and Web Server (Laravel 5.4)
 - PHP >= 5.6.4
 - OpenSSL PHP Extension
