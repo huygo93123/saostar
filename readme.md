@@ -1,4 +1,5 @@
 ## SAOSTAR (v 1.0.0)
+![alt text](https://static-pc.saostar.vn/data/themes/saostarv4/assets/images/logotapchi.png)
 ## Requirement and Web Server (Laravel 5.4)
 - PHP >= 5.6.4
 - OpenSSL PHP Extension
