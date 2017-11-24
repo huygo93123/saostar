@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="{{ asset('plugin/owlcarousel/assets/owl.theme.default.min.css') }}">
     <!-- videojs stylesheets-->
     <link href="{{ asset('plugin/video.js/video-js.css') }}" rel="stylesheet">
+    {{--css--}}
+    @yield('css')
+    {{--end css--}}
     <!--Plugin -->
     <script src="{{ asset('layouts/js/jquery-3.2.1.js') }}"></script>
     <script src="{{ asset('plugin/owlcarousel/owl.carousel.js') }}"></script>
@@ -29,7 +32,7 @@
     {{--/top banner--}}
     <div class="sw-topbanner">
         <div class="w1000">
-            <img src="images/top-banner.jpg" alt="">
+            <img src="{{ asset('layouts') }}/images/top-banner.jpg" alt="">
         </div>
     </div>
     {{--main--}}
@@ -41,12 +44,12 @@
     {{--bottom banner--}}
     <div class="sw-bottombanner">
         <div class="w1000">
-            <img src="images/top-banner.jpg" alt="">
+            <img src="{{ asset('layouts') }}/images/top-banner.jpg" alt="">
         </div>
     </div>
     {{--footer--}}
     @include("layouts.elements.footer")
 </div>
-<script src="js/home/index.js"></script>
+@yield('script')
 </body>
 </html>

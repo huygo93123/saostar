@@ -286,7 +286,7 @@
                         preload=""
                         data-setup='{}'
                 >
-                    <source src="video/videoplayback.mp4" type="video/mp4"></source>
+                    <source src="{{ asset('storage/home/video/videoplayback.mp4') }}" type="video/mp4"></source>
                     <p class="vjs-no-js">
                         To view this video please enable JavaScript, and consider upgrading to a
                         web browser that
@@ -1113,4 +1113,7 @@
         <img src="{{ asset('layouts') }}/images/sinh-nhat-sao.jpg" alt="">
     </section>
 </section>
+@endsection
+@section('script')
+    <script src="{{ asset('home') }}/js/index.js"></script>
 @endsection

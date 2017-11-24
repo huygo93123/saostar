@@ -26,8 +26,8 @@
     </div>
 
     <div class="swh-logo">
-        <a href="#" class="swhl-home">
-            <img src="images/logo.png" alt="">
+        <a href="{{ URL::to('/') }}" class="swhl-home">
+            <img src="{{ asset('layouts') }}/images/logo.png" alt="">
         </a>
 
         <div class="swhl-datecount">
@@ -290,7 +290,7 @@
             <div class="swhm-bottom">
                 <ul class="swhmb-left">
                     <li class="swhmbl-li">
-                        <img src="images/logo-negative.png" alt="">
+                        <img src="{{ asset('layouts') }}/images/logo-negative.png" alt="">
                     </li>
                     <li class="swhmbl-li">
                         <a href="#">Liên hệ</a>
@@ -326,8 +326,8 @@
         <div class="w1000">
             <ul class="swhn-list">
                 <li class="swhnl-li">
-                    <a href="#">
-                        <img src="images/home.png" alt="">
+                    <a href="{{ URL::to('/') }}">
+                        <img src="{{ asset('layouts') }}/images/home.png" alt="">
                     </a>
                 </li>
 

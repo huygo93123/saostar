@@ -2,7 +2,7 @@
     <div class="w1000">
         <div class="swf-heading">
             <a class="swfh-logo">
-                <img src="images/logo_footer.png" alt="">
+                <img src="{{ asset('layouts') }}/images/logo_footer.png" alt="">
             </a>
 
             <a href="#" class="swfh-button">Báo giá quảng cáo <i class="fa fa-arrow-right"></i></a>
