@@ -11,6 +11,7 @@
       <ul>
       <li>Mod_rewrite URL (https://www.digitalocean.com/community/tutorials/how-to-set-up-mod_rewrite-for-apache-on-ubuntu-14-04)</li>
       </ul>
+      Redirect from Desktop to Moblie .htaccess
 - NGNIX
 ## Setup 
 - Install Composer (https://getcomposer.org/download/)
@@ -31,3 +32,4 @@
 - sudo chmod -R ug+rwx storage bootstrap/cache 
 ## Config vitural host
 https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-14-04-lts
+## Config subdomain
